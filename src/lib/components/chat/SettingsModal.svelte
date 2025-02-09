@@ -269,7 +269,6 @@
 				'aboutus',
 				'softwareinfo',
 				'timothyjaeryangbaek',
-				'openwebui',
 				'release',
 				'updates',
 				'updateinfo',
