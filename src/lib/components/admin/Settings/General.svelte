@@ -141,16 +141,6 @@
 								bind:value={adminConfig.API_KEY_ALLOWED_ENDPOINTS}
 							/>
 
-							<div class="mt-2 text-xs text-gray-400 dark:text-gray-500">
-								<!-- https://docs.openwebui.com/getting-started/advanced-topics/api-endpoints -->
-								<a
-									href="https://docs.openwebui.com/getting-started/advanced-topics/api-endpoints"
-									target="_blank"
-									class=" text-gray-300 font-medium underline"
-								>
-									{$i18n.t('To learn more about available endpoints, visit our documentation.')}
-								</a>
-							</div>
 						</div>
 					{/if}
 				{/if}
@@ -181,7 +171,7 @@
 
 				<div class=" w-full justify-between">
 					<div class="flex w-full justify-between">
-						<div class=" self-center text-xs font-medium">{$i18n.t('WebUI URL')}</div>
+						<div class=" self-center text-xs font-medium">{$i18n.t('Care Advisor URL')}</div>
 					</div>
 
 					<div class="flex mt-2 space-x-2">
@@ -195,7 +185,7 @@
 
 					<div class="mt-2 text-xs text-gray-400 dark:text-gray-500">
 						{$i18n.t(
-							'Enter the public URL of your WebUI. This URL will be used to generate links in the notifications.'
+							'Enter the public URL of your Care Advisor portal. This URL will be used to generate links in the notifications.'
 						)}
 					</div>
 				</div>
